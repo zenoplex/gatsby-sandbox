@@ -1,10 +1,12 @@
 import React from 'react';
+import { Menu } from 'stardust';
 import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 import { rhythm } from '../utils/typography';
-import '../css/markdown-styles';
+import '../css/markdown-styles.css';
 import '../css/semantic-ui.css';
-import { Menu } from 'stardust';
+import '../css/test.css';
+
 
 type Props = {
   children?: any
@@ -14,11 +16,11 @@ const Template = ({ children }: Props) =>
   <div>
     <Menu stackable inverted>
       <Menu.Item>
-        <img src='http://semantic-ui.com/images/logo.png' />
+        <img src="//semantic-ui.com/images/logo.png" alt="semantic logo" />
       </Menu.Item>
 
       <Menu.Item
-        name='features'
+        name="features"
         active
         onClick=""
       >
@@ -26,7 +28,7 @@ const Template = ({ children }: Props) =>
       </Menu.Item>
 
       <Menu.Item
-        name='testimonials'
+        name="testimonials"
         onClick=""
       >
         Testimonials

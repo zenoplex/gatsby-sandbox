@@ -1,5 +1,5 @@
 :root {
-  --color: pink;
+  --color: gray;
 }
 
 .postcss-nav-example {
@@ -24,4 +24,3 @@
 .the-postcss-class {
   text-decoration: underline;
 }
-

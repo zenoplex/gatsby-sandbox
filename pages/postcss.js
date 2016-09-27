@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { config } from 'config';
-import './example.css';
+import '../css/example.css';
 
 const PostCss = () =>
   <div>

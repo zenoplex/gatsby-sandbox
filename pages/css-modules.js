@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { config } from 'config';
-import styles from './example.module.css';
+import styles from '../css/example.module.css';
 
 const CssModules = () =>
   <div>

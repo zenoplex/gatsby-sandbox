@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import { config } from 'config';
 import Hero from '../components/Hero';
 import Keynote from '../components/Keynote';
+import Outline from '../components/Outline';
 
 const Index = () =>
   <div>
@@ -17,6 +18,7 @@ const Index = () =>
     />
     <Hero />
     <Keynote />
+    <Outline />
     <p>Welcome to your new Gatsby site</p>
     <h2>Below are some pages showing different capabilities built-in to Gatsby</h2>
     <h3>Supported file types</h3>

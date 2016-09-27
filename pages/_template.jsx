@@ -3,10 +3,10 @@ import { Menu } from 'stardust';
 import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 import { rhythm } from '../utils/typography';
+import Nav from '../components/Nav';
 import '../css/markdown-styles.css';
 import '../css/semantic-ui.css';
 import '../css/test.css';
-
 
 type Props = {
   children?: any
@@ -34,6 +34,7 @@ const Template = ({ children }: Props) =>
         Testimonials
       </Menu.Item>
     </Menu>
+    <Nav />
     {children}
   </div>;
 

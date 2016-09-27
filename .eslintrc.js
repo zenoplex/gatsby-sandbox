@@ -20,6 +20,7 @@ module.exports = {
     'flowtype/space-after-type-colon': [2, 'always'],
     'react/sort-comp': [2, {
       order: [
+        'type-annotations',
         'static-methods',
         '/^(props|state)$/',
         'lifecycle',
@@ -30,6 +31,7 @@ module.exports = {
     'react/jsx-filename-extension': [1, {
       extensions: ['.js', '.jsx']
     }],
+    'import/no-unresolved': [2, { ignore: ['gatsby-helpers'] } ],
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: true
     }],
